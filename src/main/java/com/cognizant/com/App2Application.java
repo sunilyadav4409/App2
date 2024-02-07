@@ -10,4 +10,8 @@ public class App2Application {
 		SpringApplication.run(App2Application.class, args);
 	}
 
+        public String getMsg(){
+        return "good morning";
+        }
+
 }
