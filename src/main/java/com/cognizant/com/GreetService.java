@@ -10,4 +10,10 @@ public class GreetService {
 	public String greetService() {
 		return "Good Morning..";
 	}
+
+	public StringBuffer getObject() {
+
+		StringBuffer obj = new StringBuffer();
+		return obj;
+	}
 }
